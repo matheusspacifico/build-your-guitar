@@ -5,9 +5,9 @@ function Dropdown({name, label, items}) {
     <div>
         <label htmlFor={name}>{label}</label>
         <select name={name} id={name}>
-            {items.map((element, index) => (
-                <option key={index}>{element}</option>
-            ))}
+          {items.map((element, index) => (
+              <option key={index}>{element}</option>
+          ))}
         </select>
     </div>
   )
